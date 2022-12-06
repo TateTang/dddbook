@@ -5,8 +5,8 @@ import com.tate.bank.types.ExchangeRate;
 import com.tate.bank.types.Money;
 
 /**
- * @author : maclstudio
- * @date : 2020/3/26
+ * @author : tate
+ * @date : 2022/12/6
  */
 public interface AccountTransferService {
     void transfer(Account sourceAccount, Account targetAccount, Money targetMoney, ExchangeRate exchangeRate);

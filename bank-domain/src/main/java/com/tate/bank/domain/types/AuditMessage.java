@@ -8,8 +8,8 @@ import com.tate.bank.types.UserId;
 import java.util.Date;
 
 /**
- * @author : maclstudio
- * @date : 2020/3/25
+ * @author : tate
+ * @date : 2022/12/6
  */
 public class AuditMessage {
     private UserId userId;

@@ -13,8 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * @author : maclstudio
- * @date : 2020/3/25
+ * @author : tate
+ * @date : 2022/12/6
  */
 @Component
 public class AccountRepositoryImpl implements AccountRepository {

@@ -12,12 +12,13 @@ import static java.time.ZoneId.of;
 import static java.util.TimeZone.getTimeZone;
 
 @SpringBootApplication(scanBasePackages = {"com.tate"})
-@EntityScan("com.maclstudio.bank.persistence")
+@EntityScan("com.tate.bank.persistence")
 @EnableJpaRepositories(basePackages = {"com.tate.bank.persistence"})
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
+
     @PostConstruct
     void started() {
         TimeZone.setDefault(getTimeZone(of("Asia/Shanghai")));

@@ -7,8 +7,8 @@ import com.tate.bank.ddd.ApplicationService;
 import java.math.BigDecimal;
 
 /**
- * @author : maclstudio
- * @date : 2020/3/25
+ * @author : tate
+ * @date : 2022/12/6
  */
 public interface TransferService extends ApplicationService {
     boolean transfer(Long sourceUserId, String targetAccountNumber, BigDecimal targetAmount, String targetCurrency) ;

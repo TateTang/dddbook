@@ -7,8 +7,8 @@ import lombok.Getter;
 import lombok.ToString;
 
 /**
- * @author : maclstudio
- * @date : 2020/3/25
+ * @author : tate
+ * @date : 2022/12/6
  */
 @Getter
 @EqualsAndHashCode

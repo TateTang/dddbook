@@ -13,7 +13,7 @@ import java.lang.reflect.Method;
 
 /**
  * 自定义header拦截校验
- * Created by maclstudio on 2019/13/03.
+ * Created by tate on 2019/13/03.
  */
 @Slf4j
 public class RequestInterceptor implements HandlerInterceptor {

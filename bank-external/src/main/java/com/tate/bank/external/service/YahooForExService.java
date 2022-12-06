@@ -5,8 +5,8 @@ import com.tate.bank.types.Currency;
 import java.math.BigDecimal;
 
 /**
- * @author : maclstudio
- * @date : 2020/3/25
+ * @author : tate
+ * @date : 2022/12/6
  */
 public interface YahooForExService {
     BigDecimal getExchangeRate(Currency sourceCurrency, Currency targetCurrency);
